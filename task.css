@@ -1,0 +1,718 @@
+
+.overview
+{
+  background-color: black;
+  color:#fff;
+}
+h1
+{ 
+    color: white;
+    font-size: 60px;
+}
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    Top: 10px;
+  }
+  
+  nav ul li 
+  { 
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    justify-content: center;
+    text-align: right;
+    display: block;
+    bottom:200px;
+    padding: 10px 20px ;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(72, 72, 243);
+    border-radius: 2px;
+    
+    
+  }
+  p{
+    font-size:30px;
+    padding: 20px ;
+    text-align: center;
+    justify-content: center;
+    
+}
+.Content
+{
+    background-color: aliceblue;
+    color:#fff;
+    line-height: 50px;
+    gap:10px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    Width:100%;
+    overflow: hidden;
+    animation: carousel-animation 10s infinite;
+    transition: transform 0.3s ease-in-out;
+    
+}
+@keyframes carousel-animation {
+    0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    
+    
+}
+.content p{
+  margin: 0;
+
+}
+.Admin
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid white !important;
+    border-radius: 5px;
+    width: 200px;
+    opacity: 0.5;
+}
+
+.corporate
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid white !important;
+    border-radius: 5px;
+    Width: 200px;
+    opacity: 0.5;
+}
+.creative
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid white !important;
+    border-radius: 5px;
+    Width:200px;
+    Opacity: 0.5;
+}
+.software
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid white !important;
+    border-radius: 5px;
+    width: 200px;
+    Opacity:0.5;
+}
+.travel
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid white !important;
+    border-radius: 5px;
+    width: 200px;
+    Opacity:0.5;
+}
+
+.image1
+{
+    box-shadow: 7px 9px 8px 10px grey !important;
+
+    margin-top: 50px;
+    max-width: 800px;
+    display: flex;
+    gap:20px;
+    
+
+}
+.image2
+{
+  box-shadow: 7px 9px 8px 10px grey !important;
+  max-width: 500px;
+
+}
+.para
+{
+  display: flex;
+  color: rgb(90, 87, 87) ! important;
+  
+}
+.paragraph
+{
+  color:black;
+  Width:900px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10%;
+
+
+  
+
+} 
+.order
+{
+  border: 1px solid black;
+  border-color: grey;
+  border-radius: 3px;
+  border-width: 3px;
+  justify-content: space-around;
+  border-radius: 5px;
+  gap:50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width:300px;
+}
+.para2
+{
+  display: flex;
+  color: rgb(90, 87, 87) ! important;
+  
+}
+.paragraph2
+{
+  color:black;
+  Width:900px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10%;
+
+} 
+.order2
+{
+  border: 1px solid black;
+  border-color: grey;
+  border-radius: 3px;
+  border-width: 3px;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  width:300px;
+}
+.Boot
+{
+  display: flex;   
+  justify-content: space-around;    
+  padding: 20px 10px 10px ;
+}
+.Boot p{
+  margin: 0;
+}
+.free
+{
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid rgb(241, 209, 209) !important;
+    color:aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    max-height: 80px;
+
+    opacity: 0.6;
+}
+.met
+{
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid rgb(241, 209, 209) !important;
+    color:aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    max-height: 80px;
+
+    opacity: 0.6;
+
+}
+.can
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid rgb(241, 209, 209) !important;
+    color:aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    max-height: 80px;
+
+    opacity: 0.6;
+}
+.port
+{
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid rgb(241, 209, 209) !important;
+    color:aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    max-height: 80px;
+
+    opacity: 0.6;
+}
+.found
+{
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid rgb(241, 209, 209) !important;
+    color:aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    max-height: 80px;
+
+    opacity: 0.6;
+}
+.and{
+
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_640.jpg");
+    border: 1px solid rgb(241, 209, 209) !important;
+    color:aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    max-height: 80px;
+    opacity: 0.6;
+}
+.button
+{
+  text-align: center;
+}
+button
+{
+  
+    border-radius: 5px;
+    background-color: rgb(10, 117, 24);
+    border: 2px solid rgb(4, 97, 35);
+    color:#fff;
+    height: 50px;
+    width: 150px;
+    padding:10px;
+    
+
+}
+.best h1
+{
+  color:black;
+  margin: 0;
+}
+.img{
+  box-shadow: 7px 9px 8px 10px grey;
+  width:900px;
+}
+.repair{
+  width:800px;
+}
+.Victor
+{
+  width:800px;
+}
+.option
+{
+  display: flex;
+  width:300px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+
+.btn2
+{
+  border: 2px solid white;
+  
+}
+.care h1
+{
+  color:black;
+}
+.design{
+  
+  box-shadow: 7px 9px 8px 10px grey;
+  width:800px;
+  margin-top: 20px;
+
+}
+.button3
+{
+  display:flex;
+  gap: 20px
+}
+.Garden h1{
+  color: black;
+}
+.resident
+{
+  width: 800px;
+}
+.service
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;
+}
+.info
+{
+  display: flex;
+  gap: 20px;
+}
+.unbrew h1{
+  color: black;
+}
+.seo
+{
+  width:800px;
+}
+.boost{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;
+}
+.green
+{
+  display: flex;
+  gap:20px;
+}
+.clany h1
+{
+  color: black;
+}
+.cleaning
+{
+  width:800px;
+}
+.spring
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;
+}
+.press
+{
+  display: flex;
+  gap:20px;
+}
+.integ h1{
+  color:black;
+}
+.item
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;
+}
+.service
+{
+  width: 800px;
+}
+.section
+{
+  display: flex;
+  gap: 20px;
+}
+.move h1
+{
+  color:black;
+}
+.movers
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;
+}
+.graph{
+width: 800px;
+}
+.join
+{
+  display: flex;
+  gap: 20px;
+}
+.laun h1
+{
+  color:black
+}
+.dry
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+}
+.mpara
+{
+  width:800px;
+}
+.btn4
+{
+  display: flex;
+  gap: 20px;
+}
+.bold h1
+{
+  color:black;
+}
+.man{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+
+}
+.tpara
+{
+  width:800px;
+}
+.btn7
+{
+  display: flex;
+  gap: 20px;
+}
+.que h1
+{
+  color: black;
+}
+.quick
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+
+}
+.clean{
+  width:800px;
+}
+.btn10
+{
+  display: flex;
+  gap: 20px;
+}
+.light h1
+{
+  color:black;
+}
+.cooking
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+}
+.spara
+{
+  width: 800px;
+}
+.btn13
+{
+  display: flex;
+  gap:20px;
+}
+.region h1
+{
+  color:black;
+}
+.lead
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+}
+.engine
+{
+  width: 800px;
+}
+.btn16
+{
+  display: flex;
+  gap: 20px;
+}
+.term h1
+{
+  color: black;
+}
+.solar
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;   
+}
+.opara
+{
+  width: 800px
+}
+.btn19
+{
+  display: flex;
+  gap: 20px;
+}
+.car h1
+{
+  color: black;
+}
+.repair
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;   
+}
+.qpara
+{
+  width:800px;
+}
+.btn22
+{
+  display:flex;
+  gap:20px;
+}
+.index h1
+{
+  color: black;
+}
+.virus
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;  
+}
+.hpara
+{
+  width:800px;
+}
+.btn25
+{ 
+  display: flex;
+  gap:20px;
+}
+.trans h1
+{
+  color:black;
+}
+.data
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;
+}
+.corner{
+  width: 800px;
+}
+.btn28
+{
+  display: flex;
+  gap: 20px
+}
+.alt h1{
+  color:black;
+}
+.tech
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px;
+}
+.lpara
+{
+  width:800px;
+}
+.btn31
+{
+  display: flex;
+  gap:20px;
+}
+.advert h1
+{
+color: black;
+}
+.termin
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+}
+.rpara
+{
+  width: 800px;
+}
+.btn34
+{
+  display: flex;
+  gap: 20px;
+}
+.topo h1
+{
+  color:black;
+}
+.survey
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+}
+.last
+{
+  width: 800px;
+}
+.btn37
+{
+  display: flex;
+  gap: 20px;
+}
+.roof h1
+{ 
+  color:black;
+}
+.web
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+}
+.npara
+{
+  width: 800px;
+}
+.btn40
+{
+  display: flex;
+  gap: 20px;
+}
+.hire h1
+{
+  color: black;
+}
+.rent
+{
+  box-shadow: 7px 9px 8px 10px grey;
+  width: 800px;
+  margin-top: 20px; 
+}
+.bpara
+{
+  width: 800px;
+}
+.btn43
+{
+  display: flex;
+  gap: 20px;
+}
+.website
+{
+ list-style: none;
+ display: flex;
+ 
+ justify-content: space-around ;
+}
+.webi
+{
+  
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 5px;                        
+}
+.theme
+{
+  
+  border: 2px solid black;
+  border-radius: 5px;
+}

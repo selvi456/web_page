@@ -1,0 +1,154 @@
+*{
+    justify-content: center;
+    list-style: none;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: medium;
+}
+.overview
+{
+    display: flex;
+    Top:0px;
+    padding-left: 10px;
+    justify-content: space-around;
+    Position:fixed;
+    background-color: rgb(188, 188, 218);
+    line-height:10px;
+    width:90%;
+    padding: 0px 120px;  
+
+    }
+.color
+{
+    align-items: center;
+    background-color:rgb(241, 157, 20);
+    border : 1px solid rgb(213, 122, 31);
+    border-radius :20px;
+    border-width: 3px;
+    margin-top: 20px;
+    border-color:black;
+    padding:10px;
+    width:250px;
+
+}
+.color:hover
+{
+    background-color: rgb(198, 186, 186);
+}
+.color2
+{
+    background-color:rgb(16, 100, 185);
+    border : 1px solid rgb(213, 122, 31);
+    border-radius :20px;
+    border-width: 3px;
+    margin-top: 20px;
+    border-color:black;
+    padding:10px;
+    width:200px;
+    justify-content: center;
+}
+.color2:hover
+{
+    background-color: rgb(198, 186, 186);
+}
+.color3
+{
+    justify-content: center;
+    background-color:rgb(241, 157, 20);
+    border : 1px solid rgb(213, 122, 31);
+    border-radius :20px;
+    border-width: 3px;
+    margin-top: 20px;
+    border-color:black;
+    padding:10px;
+    width:250px;
+    
+}
+.color3:hover
+{
+    background-color: rgb(198, 186, 186);
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    width:auto;
+    color:  #fff;
+    line-height: 350px;
+    margin-bottom: 100px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/13/19/38/abstract-1042463_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content
+{
+     Top:20px;
+     justify-content: center;
+     align-items: center;
+}
+.marketing
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.list
+{
+ justify-content: center;
+ background-color: rgb(223, 131, 10);   
+ border: 1px solid black;
+ border-radius: 2px;
+ padding: 30px;
+ 
+}
+.list2
+{
+ justify-content: center;
+ background-color: rgb(223, 131, 10);   
+ border: 1px solid black;
+ border-radius: 2px;
+ padding: 30px;
+}
+.list3
+{
+    justify-content: center;
+    background-color: rgb(223, 131, 10);   
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 30px;   
+}
+button
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 400px;
+    background-color:rgb(223, 131, 10) ;
+    margin-bottom: 20px;
+    
+}
+footer
+{
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/13/19/38/abstract-1042463_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    gap:30px;
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.row1
+{
+    letter-spacing: 1px;
+  
+}
